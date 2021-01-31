@@ -32,3 +32,12 @@ lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(
                                                                       Variance=var(PSI),
                                                                       SD=sd(PSI),
                                                                       .groups='keep')
+
+# Deliverable 3
+
+# use t.test for all lots
+t.test(sus_coil$PSI,mu=1500)
+# t.test for individual lots
+t.test(subset(sus_coil, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+t.test(subset(sus_coil, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+t.test(subset(sus_coil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
