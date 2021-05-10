@@ -4,7 +4,7 @@
 
 ## Linear Regression to Predict MPG
 
-Using a dataset containing mpg test results for 50 MechaCar design prototypes, I have created a llinear regression model that will predict miles-per-gallon results based off of several factors; vehicle length, vehicle weight, spoiler angle, ground clearance, and whether the prototype is AWD.  
+Using a dataset containing mpg test results for 50 MechaCar design prototypes, I have created a linear regression model that will predict miles-per-gallon results based off of several factors; vehicle length, vehicle weight, spoiler angle, ground clearance, and whether the prototype is AWD.  
 
 ### Results
 
